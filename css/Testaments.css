@@ -24,7 +24,7 @@ color:white;
 font-size: 13px;
 font-weight: bold;
 }
-.current:link, .current:visited {
+.current_t:link, .current_t:visited {
     color:#3144C8;
 }
 nav ul li a:hover {
@@ -58,9 +58,11 @@ color:#3144C8;
 }
 
 .testamentH1 {
+    background: #3144C8;
+    color: white;
     text-align: center;
-    margin-top: 20px;
-    font-size: 40px;
+    margin-top: 80px;
+    font-size: 26px;
     margin-bottom: 10px;
     font-family: 'Playfair Display', ital;
 }
