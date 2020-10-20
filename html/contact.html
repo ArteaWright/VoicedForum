@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/contact.css" type="text/css" />
+  <title>Contact</title>
+</head>
+
+<body>
+  <div class="img-container">
+    <img
+      class="img-logo"
+      src="../images/bluevoicedlogo.png"
+      alt="image of logo"
+    />
+  </div>
+  <main class="row">
+    <header class="container">
+    </header>
+    <section class="section">
+    <article class="column">
+      <div class="div">
+      <img class="phone" src="../images/phone-volume-solid.svg" alt="phone logo">
+      <p>804-220-TALK</p>
+    </div>
+    <div class="div">
+      <img class="marker" src="../images/map-marker-alt-solid.svg" alt="marker logo">
+      <p>926 Speak Up Lane, Charlotte, NC, 29890</p>
+    </div>
+    <div class="div" >
+      <img class="email" src="../images/envelope-solid.svg" alt="email logo">
+      <p>Voiced@gmail.com</p>
+    </div>
+    <div class="logo">
+    <div class="logo__contact">
+      <a aria-label="Facebook" href='https://www.facebook.com/' target="blank"><img class="facebook" src="../images/facebook-square-brands.svg" alt="facebook logo"></a>
+    </div>
+    <div class="logo__contact">
+      <a aria-label="Instagram" href="https://www.instagram.com/?hl=en" target="blank"><img class="instagram" src="../images/instagram-brands.svg" alt="instagram logo"></a>
+    </div>
+    <div class="logo__contact">
+      <a aria-label="Twitter" href='https://twitter.com/' target="blank"><img class="twitter" src="../images/twitter-brands.svg" alt="twitter logo" href='https://twitter.com/' target="blank"> </a>
+    </div>
+    <div class="logo__contact">
+      <a aria-label="Linked" href="https://www.linkedin.com/" target="blank"><img class="in" src="../images/invision-brands.svg" alt="in logo"></a>
+    </div>
+  </div>
+    </article>
+    <article class="column">
+      <form class="form">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder=" Enter Your Last Name" required>
+        <label for="city">City</label>
+        <select id="city" name="city">
+          <option value="charlotte">Charlotte</option>
+          <option value="raleigh">Raleigh</option>
+          <option value="greensboro">Greensboro</option>
+        </select>
+        <label for="subject">Message Us!</label>
+        <textarea rows="10" id="subject" name="subject" placeholder="Write Us Here!" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </article>
+      </section>
+        </main>
+  </body>
+</html>
