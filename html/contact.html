@@ -7,65 +7,107 @@
   <link rel="stylesheet" href="../styles/contact.css" type="text/css" />
   <title>Contact</title>
 </head>
-
 <body>
+  <nav>
+    <a href="/index.html">
+        <img class="logo" src="/img/logo.png" alt="Logo">
+    </a>
+    <ul>
+        <li><a href="/index.html">HOME</a></li>
+        <li><a href="/forum.html">POST</a></li>
+        <li><a class="current_t" href="/pages/Testamentsl.html">TESTAMENTS</a></li>
+        <li><a href="/pages/resources.html">RESOURCES</a></li>
+        <li><a class="navbtn current" href="/html/contact.html">CONTACT</a></li>
+    </ul>
+</nav>
+
   <div class="img-container">
     <img
       class="img-logo"
       src="../images/bluevoicedlogo.png"
       alt="image of logo"
     />
+    <p class="paragraph">We are here to answer and questions you may have and connect you to the right resources to continue the fight.<br>Speak Up! and Speak Out!</p>
   </div>
-  <main class="row">
+<main class="row">
     <header class="container">
     </header>
     <section class="section">
-    <article class="column">
+      <article class="column">
+        <form class="form">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder=" Enter Your Last Name" required>
+          <label for="city">City</label>
+          <select id="city" name="city">
+            <option value="charlotte">Charlotte</option>
+            <option value="raleigh">Raleigh</option>
+            <option value="greensboro">Greensboro</option>
+          </select>
+          <label for="subject">Message Us!</label>
+          <textarea rows="10" id="subject" name="subject" placeholder="Write Us Here!" required></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </article>
+    <article class="column2">
       <div class="div">
       <img class="phone" src="../images/phone-volume-solid.svg" alt="phone logo">
-      <p>804-220-TALK</p>
+      <p><b>Telephone:</b><br>804-220-TALK</p>
     </div>
     <div class="div">
       <img class="marker" src="../images/map-marker-alt-solid.svg" alt="marker logo">
-      <p>926 Speak Up Lane, Charlotte, NC, 29890</p>
+      <p><b>Address:</b><br>926 Speak Up Lane,<br> Charlotte, NC,<br> 29890</p>
     </div>
     <div class="div" >
       <img class="email" src="../images/envelope-solid.svg" alt="email logo">
-      <p>Voiced@gmail.com</p>
+      <p><b>Email:</b><br>Voiced@gmail.com</p>
     </div>
-    <div class="logo">
-    <div class="logo__contact">
-      <a aria-label="Facebook" href='https://www.facebook.com/' target="blank"><img class="facebook" src="../images/facebook-square-brands.svg" alt="facebook logo"></a>
-    </div>
-    <div class="logo__contact">
-      <a aria-label="Instagram" href="https://www.instagram.com/?hl=en" target="blank"><img class="instagram" src="../images/instagram-brands.svg" alt="instagram logo"></a>
-    </div>
-    <div class="logo__contact">
-      <a aria-label="Twitter" href='https://twitter.com/' target="blank"><img class="twitter" src="../images/twitter-brands.svg" alt="twitter logo" href='https://twitter.com/' target="blank"> </a>
-    </div>
-    <div class="logo__contact">
-      <a aria-label="Linked" href="https://www.linkedin.com/" target="blank"><img class="in" src="../images/invision-brands.svg" alt="in logo"></a>
-    </div>
-  </div>
+    <div class="contact_socials">
+      <p><b>Follow us on social media:</b></p>
+      <a class="link" href="https://www.linkedin.com/home">
+       <img class="social_link" title="LinkedIn" src="/img/link.png" alt="LinkedIn">
+      </a>
+      <a class="link" href="https://twitter.com/">
+       <img class="social_link" title="Twitter" src="/img/twit.png" alt="Twitter">
+      </a>
+      <a class="link" href="https://www.facebook.com/">
+       <img class="social_link" title="Facebook" src="/img/face.png" alt="Facebook">
+      </a>
+      <a class="link" href="https://www.instagram.com/">
+       <img class="social_link" title="instagram" src="/img/inst.png" alt="Instagram">
+      </a>
+  </div> 
     </article>
-    <article class="column">
-      <form class="form">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Enter Your First Name" required>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder=" Enter Your Last Name" required>
-        <label for="city">City</label>
-        <select id="city" name="city">
-          <option value="charlotte">Charlotte</option>
-          <option value="raleigh">Raleigh</option>
-          <option value="greensboro">Greensboro</option>
-        </select>
-        <label for="subject">Message Us!</label>
-        <textarea rows="10" id="subject" name="subject" placeholder="Write Us Here!" required></textarea>
-            <input type="submit" value="Submit">
-          </form>
-        </article>
       </section>
-        </main>
+</main>
+<footer>
+          <ul>
+               <li><a href="/index.html">HOME</a></li>
+              <li><a href="/forum.html">POST</a></li>
+              <li><a href="/pages/Testamentsl.html">TESTAMENTS</a></li>
+              <li><a href="/pages/resources.html">RESOURCES</a></li>
+              <li><a href="/html/contact.html">CONTACT</a></li>
+          </ul>
+          <div class="copyright">
+          <img class="logo" src="/img/logo.png" alt="Logo">
+          <p>&#169;Copyright Voiced 2020</p>
+         </div>
+         <div class="socials">
+             <a href="https://www.linkedin.com/home">
+              <img class="social_link" title="LinkedIn" src="/img/linkedin.png" alt="LinkedIn">
+             </a>
+             <a href="https://twitter.com/">
+              <img class="social_link" title="Twitter" src="/img/twitter.png" alt="Twitter">
+             </a>
+             <a href="https://www.facebook.com/">
+              <img class="social_link" title="Facebook" src="/img/facebook.png" alt="Facebook">
+             </a>
+             <a href="https://www.instagram.com/">
+              <img class="social_link" title="instagram" src="/img/instagram.png" alt="Instagram">
+             </a>
+         </div>    
+</footer>
+
   </body>
 </html>

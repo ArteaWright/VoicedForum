@@ -9,10 +9,21 @@ body {
     font-family: 'Playfair Display', serif;
     background-color: #a6a6a6;
 }
-
+.arrow{
+    width: 40px;
+    vertical-align: text-bottom;
+}
 .img-container {
     text-align: center;
     padding: 10px 0px;
+}
+a {
+    color:black;
+    font-weight: bold;    
+    padding: 8px;
+}
+ a:hover{
+    color:white;
 }
 
 .img-logo {
