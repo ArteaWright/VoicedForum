@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding:0;
-  font-family:'';
+  font-family:''Playfair Display', serif';
 }
 
 nav {
@@ -126,6 +126,7 @@ span {
     width:220px;
 }
 .partner_img--title {
+    margin-bottom: 10px;
     text-align: center;
 }
 figcaption {
