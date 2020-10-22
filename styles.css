@@ -112,6 +112,7 @@ div button {
   flex-direction: row;
   justify-content: space-evenly;
   margin-bottom: 100px;
+  align-items: start;
 }
 
 .icon-text {
@@ -119,6 +120,10 @@ div button {
   width: 90%;
   margin: 10px auto;
   font-family: 'Playfair Display', serif;
+}
+.iconheader {
+  margin-top: 10px;
+  text-align: center;
 }
 
 .chat-container {
@@ -190,7 +195,7 @@ body {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
-  height: 200px;
+  height: 210px;
   width: 200px;
   align-items: center;
   justify-content: space-evenly;
