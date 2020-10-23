@@ -99,6 +99,19 @@ span {
 .learnmore:hover {
     font-weight: bold;
 }
+.connectnow {
+    margin-top: 10px;
+    text-decoration: none;
+    border: 1px solid  #FDC00A;
+    border-radius: 10px;
+    padding: 2px 8px;
+    background-color:  #FDC00A;
+    color:white;
+}
+.connectnow:hover {
+    background-color: #ddab16;
+    border: 1px solid #ddab16;
+}
 
 /* Partner section */
 .our {
