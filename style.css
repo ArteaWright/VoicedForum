@@ -1,67 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    height: 60px;
-    background: #a6a6a6a6;
-    display: flex;
-}
-nav ul {
-    display: inline-flex;
-    list-style: none;
-    margin: auto;
-    margin-right: 6px;
-}
-nav ul li {
-    vertical-align: middle;
-}
-nav ul li a {
-text-decoration: none;
-padding: 0 20px;
-color:white;
-font-size: 13px;
-font-weight: bold;
-}
-.current:link, .current:visited {
-    color:#3144C8;
-}
-nav ul li a:hover {
-color:#3144C8;
-}
-.logo {
-    width: 80px;
-    height: 64px;
-    margin: 0 12px;
-}
-.logo a {
-    margin:0;
-    padding:0;
-}
-.navbtn {
-    width: 100px;
-    height: fit-content;
-    margin: auto 10px;
-    margin-right: 250px;
-    background-color: #FDC00A;
-    border: 2px #FDC00A solid;
-    border-radius: 12px;
-    padding: 4px 20px;
-    font-size: 13px;
-    font-weight: bold;
-}
-.navbtn:hover{
-    color:white;
-    background:#ddab16;
-    border: 2px #ddab16 solid;
-}
-/* Forum */
 .sub{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Playfair Display', serif;
-
+font-size: 20px;
 }
 
 
@@ -95,6 +36,8 @@ color:#3144C8;
     border: none;
     margin-top: 70px;
     margin-left:30px;
+    border-radius: 7px;
+    margin-bottom: 30px;
   }
 
 
@@ -122,7 +65,7 @@ color:#3144C8;
 
 
     .upload[type=submit]{
-        background-color: #fdc00a;
+        background-color: #fdc00a; 
         font-family: 'Playfair Display', serif;
         color: white;
         border: none;
@@ -130,13 +73,13 @@ color:#3144C8;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5px;
+        margin-top:-5px;
         padding-left: 10px;
-        padding-right: 10px;
+    padding-right: 10px;
         text-decoration: none;
         font-size: 7px;
-        border-radius: 7px;
-        box-shadow: 1px 1px 3px #3a3534;}
+        border-radius:7px;
+        box-shadow: 1px 1px 3px  #3a3534;}
 
 
     .up{
@@ -223,37 +166,4 @@ margin-top: -45px;
 
 .ke{
 margin-top: -200px;
-}
-/* Footer */
-footer {
-    margin-top: 20px;
-    display:flex;
-    background-color:#666464;
-    height:150px;
-}
-.copyright {
-    margin: 30px auto;
-    text-align: center;
-    line-height: .5px;
-    font-size: 12px;
-    color: white;
-}
-footer ul {
-    margin: 30px;
-   
-}
-footer ul li {
-    list-style: none;
-}
-footer ul li a {
-    text-decoration: none;
-    font-size: 12px;
-    color: white;
-}
-.socials {
-    display: flex;
-    margin: 30px;
-}
-.social_link {
-    width: 30px;
 }
